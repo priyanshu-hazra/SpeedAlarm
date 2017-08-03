@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_root"
+    android:padding="10dp">
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Enter speed(Km/h) "
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:maxLength="3"
+        android:inputType="number"
+        android:paddingLeft="10dp"
+        android:hint="enter here"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextDialogUserInput">
+
+    </EditText>
+
+
+
+
+</LinearLayout>
